@@ -11,7 +11,7 @@ st.set_page_config("SVEC BOT")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://thumbs.dreamstime.com/b/chat-bot-logo-design-concept-ui-ux-element-web-flat-vector-illustration-228036935.jpg");
+background-image: url("https://images.static-collegedunia.com/public/college_data/images/appImage/15276_13.jpg?tr=c-force");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
