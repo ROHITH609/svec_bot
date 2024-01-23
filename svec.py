@@ -72,8 +72,8 @@ Artificial Intelligence and Machine Learning(AML),Civil Engineering, Mechanical 
  Dr. D. Jaya Kumari,Phone No: 08818-284355(0)-(Ext.-377) Fax No: 08818-284322,Email: hod_cseg srivasaviengg.ac.in and CSE Department came into inception from 2001 onwards with an 
 intake of 60 seats in B.Tech. From 2006 onwards the intake was increased to 120 seats. From 2013 onwards the intake was increased to 180 seats.
  From 2015 onwards intake was increased to 240 seats.CSE Department is offering M.Tech (CS) program from 2020 onwards with a present intake of 12.
-CST Department has a intake of 60 students.hod of AML and CAI is Dr. G. Loshma,Professor & Phone No: 08818-284355(O)-(Ext.-382)Email: hod_aim@srivasaviengg.ac.in.,CAI AND AML Department came into
-inception from 2021 onwards with an intake of 60 seats in B.Tech. From 2022 onwards the intake was increased to 120 seats.hod of civil department is Dr. G. Radhakrishnan,M.E.,Ph.DProfessor 
+CST Department has a intake of 60 students.hod of AML,CAI is Dr. G. Loshma,Professor & Phone No: 08818-284355(O)-(Ext.-382)Email: hod_aim@srivasaviengg.ac.in.CAI Department came into
+inception from 2021 onwards with an intake of 60 seats in B.Tech. From 2022 onwards the intake was increased to 120 seats to CAI.AML Department came into inception from 2021 onwards with an intake of 60 seats in B.Tech and From 2022 onwards the intake was increased to 120 seats.hod of civil department is Dr. G. Radhakrishnan,M.E.,Ph.DProfessor 
 ,Mobile No : 6303154996Contact No : 6303154996Fax No : 08818-284322Email: hod_civil@srivasaviengg.ac AND CIVIL Department is offering B.Tech (Civil) with an intake of 60 and M. Tech 
 (Structural Engg.) with 06 students.the hod of ECE,ECT is Dr. E. Kusuma Kumari,Professor & Head of the DepartmentPhone No: 08818-284355Fax No: 08818-284322Email: hod_ece@srivasaviengg.ac.in
 AND ECE Department is offering B.Tech with an intake of 180 and M. Tech (Structural Engg.) with 06.ECT has intake of 60.hod of EEE department is Dr.D.Sudha Rani,Professor & Head of the DepartmentMobile : 
