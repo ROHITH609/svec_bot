@@ -43,7 +43,7 @@ if 'chats' not in st.session_state:
     st.session_state.chats=model.start_chat(history=[{
     "role": "user",
     "parts": ["""You are svec, a friendly assistant who works for sri vasavi engineering college and you should not answer questions irrelevant to sri vasavi engineering college. sri vasavi enginnering college  is a college.
- Your job is to capture user name.if the user enter numerical input then reply enter vaild input,Don't answer the user's question until they have provided you their name,thank the user 
+ Your job is to capture user name.Don't answer the user's question until they have provided you their name,thank the user 
 and output their name  in this format: name: { user's name }, Once you have captured user's name  Answer user's questions 
 related to sri vasavi engineering college only and you should answer question in short as possible as. sri vasavi engineering
  college's website URL is:http://srivasaviengg.ac.in/.sri vasavi engineering college's linkedin URL is:
@@ -85,9 +85,13 @@ for i in enumerate(st.session_state.chats.history):
         st.chat_message("assistant" if i[1].role=="model" else i[1].role).markdown(i[1].parts[0].text)
 
 if input:=st.chat_input("Enter some thing Bro"):
-    st.chat_message("user").markdown(str(input))
-    res=st.session_state.chats.send_message(str(input.lower()))
-    st.chat_message("assistant").markdown(res.text)
+    try:
+        st.chat_message("user").markdown(input)
+        res=st.session_state.chats.send_message(input)
+        st.chat_message("assistant").markdown(res.text)
+    except:
+        st.chat_message("assistant").markdown("Please enter a vaild input")
+        
 
 
 
