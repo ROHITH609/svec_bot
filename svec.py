@@ -33,7 +33,24 @@ generation_config = {
   "top_k": 1,
   "max_output_tokens": 2048,
 }
-safety_settings=["enter vaild text"]
+safety_settings = [
+  {
+    "category": "HARM_CATEGORY_HARASSMENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_HATE_SPEECH",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+]
 model = genai.GenerativeModel(model_name="gemini-pro",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
@@ -86,11 +103,12 @@ for i in enumerate(st.session_state.chats.history):
 
 if input:=st.chat_input("Enter some thing Bro"):
     try:
-        st.chat_message("user").markdown(input)
-        res=st.session_state.chats.send_message(input)
-        st.chat_message("assistant").markdown(res.text)
+      st.chat_message("user").markdown(input)
+      res=st.session_state.chats.send_message(input.lower())
+      st.chat_message("assistant").markdown(res.text)
     except:
-        st.chat_message("assistant").markdown("Please enter a vaild input")
+        st.chat_message("assistant").markdown("enter vaild input")
+
         
 
 
