@@ -102,8 +102,8 @@ for i in enumerate(st.session_state.chats.history):
         st.chat_message("assistant" if i[1].role=="model" else i[1].role).markdown(i[1].parts[0].text)
 
 if input:=st.chat_input("Enter some thing Bro"):
-    st.chat_message("user").markdown(input)
-    res=st.session_state.chats.send_message(input.lower())
+    st.chat_message("user").markdown(str(input))
+    res=st.session_state.chats.send_message(str(input.lower()))
     st.chat_message("assistant").markdown(res.text)
 
 
