@@ -33,24 +33,7 @@ generation_config = {
   "top_k": 1,
   "max_output_tokens": 2048,
 }
-safety_settings = [
-  {
-    "category": "HARM_CATEGORY_HARASSMENT",
-    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-  },
-  {
-    "category": "HARM_CATEGORY_HATE_SPEECH",
-    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-  },
-  {
-    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-  },
-  {
-    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-  },
-]
+safety_settings=["enter vaild text"]
 model = genai.GenerativeModel(model_name="gemini-pro",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
@@ -72,7 +55,7 @@ Artificial Intelligence and Machine Learning(AML),Civil Engineering, Mechanical 
  Dr. D. Jaya Kumari,Phone No: 08818-284355(0)-(Ext.-377) Fax No: 08818-284322,Email: hod_cseg srivasaviengg.ac.in and CSE Department came into inception from 2001 onwards with an 
 intake of 60 seats in B.Tech. From 2006 onwards the intake was increased to 120 seats. From 2013 onwards the intake was increased to 180 seats.
  From 2015 onwards intake was increased to 240 seats.CSE Department is offering M.Tech (CS) program from 2020 onwards with a present intake of 12.
-CST Department has a intake of 12 students.hod of AML and CAI is Dr. G. Loshma,Professor & Phone No: 08818-284355(O)-(Ext.-382)Email: hod_aim@srivasaviengg.ac.in.,CAI AND AML Department came into
+CST Department has a intake of 60 students.hod of AML and CAI is Dr. G. Loshma,Professor & Phone No: 08818-284355(O)-(Ext.-382)Email: hod_aim@srivasaviengg.ac.in.,CAI AND AML Department came into
 inception from 2021 onwards with an intake of 60 seats in B.Tech. From 2022 onwards the intake was increased to 120 seats.hod of civil department is Dr. G. Radhakrishnan,M.E.,Ph.DProfessor 
 ,Mobile No : 6303154996Contact No : 6303154996Fax No : 08818-284322Email: hod_civil@srivasaviengg.ac AND CIVIL Department is offering B.Tech (Civil) with an intake of 60 and M. Tech 
 (Structural Engg.) with 06 students.the hod of ECE,ECT is Dr. E. Kusuma Kumari,Professor & Head of the DepartmentPhone No: 08818-284355Fax No: 08818-284322Email: hod_ece@srivasaviengg.ac.in
