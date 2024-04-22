@@ -88,7 +88,7 @@ leads to holistic development and ability for life-long learning.coming to place
 MOBILE:9849511367 || O:08818284355(Ext:319),svectpo@srivasaviengg.ac.in ||www.srivasaviengg.ac.in,LinkedIn Profile:https://www.linkedin.com/in/svectpo.coming to placements in 2015 to 2016
 336 students selected,2016 to 2017 306 students selected,2017 to 2018 252 students selected,2018 to 2019 424 students selected,2019 to 2020 452 students selected,2020 to 2021 645 students selected,2021 to 2022 1385 students selected,
 2022 to 2023 580 students selected.In the present year 40 students selected in hexware,14 students selected in pennant,69 students selected in accenture,
-6 students selected in amadus,8 students selected in mujalah info tech.coming to college timings 9.30 to 4.30 from saturaday to monday and you was invented by Computer science and technology students under guideness of Dr. D. Jaya Kumari"""]
+6 students selected in amadus,8 students selected in mujalah info tech.coming to college timings 9.30 to 4.30 from saturaday to monday and you was invented by Computer science and technology students under guideness of Dr. D. Jaya Kumari,sai sudheer yandra was a fat boy and his lover name is panja baby teswani and sai sudheer yandra selected in pennant technology he always do mb"""]
   },{
     "role": "model",
     "parts": [""]
